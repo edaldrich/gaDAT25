@@ -1,0 +1,25 @@
+## Final Project Proposal Ideas
+
+### Concept 1: Used Equipment Sales - Age Listed vs Sale
+
+The company I work for provides values on used construction equipment in order to enable salesmen to appropriately price and make decisions on their inventory.  For example, our data may suggest that a 2012 Caterpillar 330F L (a large excavator) expects to return a retail value of $100,000.  A used equipment manager may take that value and use it to help make pricing decisions when selling; in this case they'll mark the machine for sale at $110,000 (in order to give their salesmen some negotiation room).
+
+My analysis would compare what the final sale prices is compared to the provided value is, looked at over time.  My expectation is that some assets which are held longer are sold for less than assets which are listed for sale for a shorter duration of time.  Several reasons could explain this, such as the used equipment manager seeing the expected value, deciding it is too low, and pricing well above that value only to have difficulties selling and later lowering the price.  Conceptually, I'm envisioning a plot with Sale Price/Value on the Y axis and Age-held (once marked ready to sell) on the X-Axis.
+
+I have access to this data, albeit I may need some internal help in order to pull the correct information based upon how our data structure stores the information.  I would be able to do an analysis on multiple companies and multiple sellers.
+
+### Concept 2: NFL - Stronger Offense and Defense Proficiencies
+
+Currently, NFL teams are measured on their offense/defense in similar ways: Points For/Against, Yards For/Against, Turnovers For/Against respectively to name a few.  While a Strength of Schedule is also a metric used (in a different way), these team statistics are often viewed in aggregate for a team's individual season which does not consider the difference in schedule from one team to another.  Say for example, that the Browns allow 19 points per game and the Ravens allow 16 points per game.  On the surface (and how the public generally views this). the Ravens are a stronger defensive team.  However, if the 16 opponents the Browns played that season averaged 26 points per game _when not playing the Browns_ and the 16 opponents the Ravens played averaged 14 points a game _when not playing the Ravens_, the story could be interpreted in a different way.
+
+My analysis would compare how offensive and defensive team statistics in stronger comparison with how their opponents performed in other games.  My hypothesis would expect to see teams with better offensive and defensive stats have a more direct output on their final records and potentially playoff success.  As the model progresses, being able to show predictive outcomes of upcoming games would be a fun experiement.  If possible, adding a second comparison line to compare against the lines of the games would potentially enable a further discussion.
+
+The data is readily available from https://www.pro-football-reference.com/.  If I wanted to compare Vegas odds, I would need to figure out a good historical log of those figures.  This analysis would be able to be similarly done for the NBA, however at the point of this project would not have enough data for the 2018-2019 season to make a determination.
+
+### Concept 3: Rookie Quarterback Projections
+
+The sports world, having an abundence of good, clean data, enables a ton of great analysis.  I would like to take a look at how a rookie in the NFL has performed in his first X games or first X pass attempts and compare the similarities of yards per attempt, yards per completion, turnover metrics, and others to make an early level comparison to how their early career performances look against quarterbacks who had a longer tenure, both inactive and retired.  For example, if a rookie quarterback in his first 4 games threw 6 TDs and 2 Ints, for 1300 yards on a 65% completion ratio, how similar is that to other quarterbacks in history, and can I find the closest 3-5 quarterbacks who had similar statlines in their first 4 games.
+
+My expectation is that I would be able to compare past quarterbacks and make similarities.  My hypothesis is that quarterbacks who showed high levels of success would compare well against each other and quarterbacks who showed low levels of long term success also would compare well against each other, using total W-L as indicators of good and bad quarterbacks.  Assuming the hypothesis grades out, being able to make predictions on current rookies would be a fun exercise.
+
+The data is readily available from https//www.pro-football-reference.com/.
